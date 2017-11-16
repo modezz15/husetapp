@@ -1,0 +1,135 @@
+*{
+margin: 0;    
+}
+#splashContent{
+ height: 100vh;
+ width: 100%;
+ background-image: url(images/background.png);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+#log-in{
+    position: absolute;
+    top: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    
+}
+#log-in a{
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 20px;
+    margin-top: 1vh;
+    border-radius: 50px;
+    text-decoration: none;
+    background-image: url(images/background.png);
+  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  font-weight: bold;
+    text-align: center;
+    background-color: rgba(999,999,999,.8);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    filter: invert(1);
+}
+#facebook-login{
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 1vh;
+    background-color: rgba(999,999,999,1);
+    
+}
+#google-login{
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 1vh;
+    background-color: rgba(999,999,999,1);
+    
+   
+}
+#guest-login{
+    width: 80%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 1vh;
+    background-color: rgba(999,999,999,1);
+    
+}
+#guest{
+    
+}
+#or{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(999,999,999,1);
+    font-size: 25px;
+    margin-top: 1.5vh;
+}
+#facebooklogo{
+    float: right;
+    position: relative;
+    right: 10px;
+}
+#googlelogo{
+    float: right;
+    position: relative;
+    right: 10px;
+}
+h3, h4{
+    margin-left: 15px;
+}
+.event {
+    margin-top: 5vh;
+}
+.eventInfo{
+    padding: 15px;
+    height: 30vh;
+    border: 2px black solid;
+    overflow-y: hidden;
+}
+
+.revealeventInfo{
+    animation: reveal 1s ease forwards;
+}
+@keyframes reveal{
+    0%{
+    border: 2px black solid;
+    }
+    100%{
+     border: 2px red solid;   
+    }
+}
+#main{
+    height: 100vh;
+    border: 2px red solid;
+}
+#scrollButton{
+    display: block;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    top: 45vh;
+    
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    position: relative;
+    top: 20vh;
+}
+#nav a{
+    margin-top: 5vh;
+    display: block;
+    padding: 4vh 0;
+    border: 2px black solid;
+    text-align: center;
+}
